@@ -66,18 +66,18 @@ export function Home() {
 
       <TextInput
         style={styles.input}
-        placeholder="New skill"
+        placeholder="Digite aqui...."
         placeholderTextColor="#555"
         onChangeText={setNewSkill} //onChangeText fica observando
       />
 
       <Button
-        title="Add"
+        title="Adicionar"
         onPress={handleAddNewSkill}
       />
 
       <Text style={[styles.title, { marginVertical: 50 }]}>
-        My Skills
+        Lista de Compras
       </Text>
 
       <FlatList
